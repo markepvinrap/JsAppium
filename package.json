@@ -1,0 +1,38 @@
+{
+    "name": "testWebdriverjs",
+    "version": "5.3.1",
+    "description": "Test Appium using JS",
+    "scripts": {
+        "android.app": "./node_modules/.bin/wdio ./config/wdio.android.app.conf.js",
+        "ios.app": "./node_modules/.bin/wdio ./config/wdio.ios.app.conf.js"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.10.4",
+        "@babel/core": "^7.10.4",
+        "@babel/preset-env": "^7.10.4",
+        "@babel/register": "^7.10.4",
+        "@babel/traverse": "^7.10.4",
+        "@babel/types": "^7.10.4",
+        "@wdio/appium-service": "^6.12.1",
+        "@wdio/browserstack-service": "^6.12.1",
+        "@wdio/cli": "^6.12.1",
+        "@wdio/local-runner": "^6.12.1",
+        "@wdio/mocha-framework": "^7.16.15",
+        "@wdio/sauce-service": "^6.12.1",
+        "@wdio/spec-reporter": "^6.11.0",
+        "@wdio/sync": "^6.11.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.13.0",
+        "eslint-config-standard": "^16.0.1",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^5.0.0",
+        "eslint-plugin-wdio": "^6.6.0",
+        "node-fetch": "^2.6.1"
+    },
+    "dependencies": {
+        "@wdio/allure-reporter": "^7.16.14",
+        "chai": "^4.3.6"
+    }
+}
